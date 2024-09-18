@@ -1,0 +1,27 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
